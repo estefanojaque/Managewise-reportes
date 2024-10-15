@@ -1,9 +1,9 @@
 {
- "issues": [
+  "issues": [
     {
       "id": 1,
       "title": "Error en autenticación de usuarios",
-      "SprintAssociate": 1,
+      "SprintAssociate": "1",
       "description": "Los usuarios no pueden autenticarse. El servidor devuelve un error 500.",
       "status": "Abierto",
       "priority": "Alta",
@@ -133,6 +133,58 @@
           "user": "Juan Pérez",
           "event": "Asignación",
           "description": "El issue fue asignado a Juan Pérez."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Fallo en la integración con API externa",
+      "SprintAssociate": 4,
+      "description": "La integración con la API de terceros devuelve errores intermitentes.",
+      "status": "En Progreso",
+      "priority": "Media",
+      "assignedTo": "Maria González",
+      "madeBy": "Carla Ruiz",
+      "createdIn": "2024-10-07",
+      "resolutionDate": null,
+      "history": [
+        {
+          "date": "2024-10-07",
+          "user": "Carla Ruiz",
+          "event": "Creación",
+          "description": "El issue fue creado por Carla Ruiz."
+        },
+        {
+          "date": "2024-10-08",
+          "user": "Maria González",
+          "event": "Asignación",
+          "description": "El issue fue asignado a Maria González."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Error de rendimiento en la página de inicio",
+      "SprintAssociate": 3,
+      "description": "La página de inicio tarda más de 5 segundos en cargar.",
+      "status": "Abierto",
+      "priority": "Alta",
+      "assignedTo": "Carlos López",
+      "madeBy": "Juan Pérez",
+      "createdIn": "2024-09-28",
+      "resolutionDate": null,
+      "history": [
+        {
+          "date": "2024-09-28",
+          "user": "Juan Pérez",
+          "event": "Creación",
+          "description": "El issue fue creado por Juan Pérez."
+        },
+        {
+          "date": "2024-09-29",
+          "user": "Carlos López",
+          "event": "Asignación",
+          "description": "El issue fue asignado a Carlos López."
         }
       ]
     }
