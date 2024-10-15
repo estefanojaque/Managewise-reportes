@@ -1,134 +1,192 @@
 {
-"reporte": [
-{
-"id": 1,
-"projectName": "Proyecto 1",
-"transmitter": "Lider",
-"issuerName": "Julia Araña",
-"title": "Reporte de finalización de Sprint",
-"Summary": "La API no está respondiendo a las solicitudes correctamente.",
-"detailedDescription": "Desde la última actualización, las llamadas a la API externa están devolviendo errores 500.",
-"dateTime": "23 de septiembre-10:30 AM",
-"assignedTo": "Grupo del Backend",
-"priority": "Alta",
-"suggestedActions": "Revisar los logs de errores y corregir la configuración de la API."
-},
-{
-"id": 2,
-"projectName": "Proyecto 2",
-"transmitter": "Desarrollador",
-"issuerName": "Carlos Ramírez",
-"title": "Problemas con la base de datos",
-"Summary": "El servidor de base de datos se ha caído durante varias horas.",
-"detailedDescription": "El servidor de base de datos ha estado inactivo desde las 8:00 AM, afectando la disponibilidad de la plataforma.",
-"dateTime": "24 de septiembre-11:15 AM",
-"assignedTo": "Equipo de Infraestructura",
-"priority": "Alta",
-"suggestedActions": "Reiniciar el servidor y revisar la configuración de la base de datos."
-},
-{
-"id": 3,
-"projectName": "Proyecto 2",
-"transmitter": "Tester",
-"issuerName": "María Pérez",
-"title": "Error en la funcionalidad de registro",
-"Summary": "Los usuarios no pueden registrarse debido a un error de validación.",
-"detailedDescription": "Al intentar registrar un nuevo usuario, la plataforma muestra un mensaje de error inesperado y no se completa el registro.",
-"dateTime": "25 de septiembre-09:45 AM",
-"assignedTo": "Equipo de Frontend",
-"priority": "Media",
-"suggestedActions": "Revisar las validaciones en el formulario de registro."
-},
-{
-"id": 4,
-"projectName": "Proyecto 2",
-"transmitter": "Gerente de Proyecto",
-"issuerName": "Ana López",
-"title": "Avance del desarrollo",
-"Summary": "El desarrollo del módulo de facturación está retrasado.",
-"detailedDescription": "El equipo de desarrollo ha encontrado dificultades con la integración de la pasarela de pagos, lo que ha retrasado el avance.",
-"dateTime": "26 de septiembre-02:00 PM",
-"assignedTo": "Lider del equipo de desarrollo",
-"priority": "Baja",
-"suggestedActions": "Coordinar con el equipo de pagos para solucionar los problemas de integración."
-},
-{
-"id": 5,
-"projectName": "Proyecto 1",
-"transmitter": "Desarrollador",
-"issuerName": "Pedro Gómez",
-"title": "Bugs en la interfaz de usuario",
-"Summary": "La interfaz no carga correctamente en dispositivos móviles.",
-"detailedDescription": "En dispositivos móviles, algunos elementos de la interfaz no se muestran correctamente y no son interactivos.",
-"dateTime": "27 de septiembre-04:30 PM",
-"assignedTo": "Equipo de Frontend",
-"priority": "Media",
-"suggestedActions": "Ajustar los estilos CSS para dispositivos móviles."
-},
-{
-"id": 6,
-"projectName": "Proyecto 2",
-"transmitter": "Product Owner",
-"issuerName": "Luis Sánchez",
-"title": "Nueva funcionalidad solicitada",
-"Summary": "Se requiere una nueva funcionalidad para exportar reportes.",
-"detailedDescription": "El cliente ha solicitado la capacidad de exportar los reportes en formato PDF desde la plataforma.",
-"dateTime": "28 de septiembre-08:00 AM",
-"assignedTo": "Equipo de Desarrollo",
-"priority": "Baja",
-"suggestedActions": "Desarrollar un módulo de exportación de reportes en formato PDF."
-},
-{
-"id": 7,
-"projectName": "Proyecto 3",
-"transmitter": "Analista de Datos",
-"issuerName": "Laura Castillo",
-"title": "Inconsistencias en los datos del panel",
-"Summary": "Los datos mostrados en el panel de administración no coinciden con la base de datos.",
-"detailedDescription": "Algunos gráficos y tablas del panel de administración están mostrando información incorrecta debido a un problema en las consultas SQL.",
-"dateTime": "29 de septiembre-10:45 AM",
-"assignedTo": "Equipo de Backend",
-"priority": "Alta",
-"suggestedActions": "Revisar y corregir las consultas SQL y validar los datos."
-},
-{
-"id": 8,
-"projectName": "Proyecto 2",
-"transmitter": "Administrador de Sistemas",
-"issuerName": "José Martínez",
-"title": "Problemas de rendimiento en el servidor",
-"Summary": "El servidor principal está experimentando una sobrecarga y tiempos de respuesta lentos.",
-"detailedDescription": "En las últimas 24 horas, el servidor ha experimentado una alta carga de CPU, lo que afecta el tiempo de respuesta de la plataforma.",
-"dateTime": "30 de septiembre-03:20 PM",
-"assignedTo": "Equipo de Infraestructura",
-"priority": "Alta",
-"suggestedActions": "Optimizar la configuración del servidor y escalar recursos si es necesario."
-},
-{
-"id": 9,
-"projectName": "Proyecto 1",
-"transmitter": "Scrum Master",
-"issuerName": "Ricardo Fernández",
-"title": "Retraso en la entrega de funcionalidades",
-"Summary": "El equipo de desarrollo no ha podido entregar las funcionalidades acordadas en el sprint.",
-"detailedDescription": "Debido a problemas técnicos y falta de recursos, el equipo no ha completado las tareas del sprint actual.",
-"dateTime": "1 de octubre-11:00 AM",
-"assignedTo": "Líder de equipo",
-"priority": "Media",
-"suggestedActions": "Revisar la planificación del sprint y reasignar tareas según la prioridad."
-},
-{
-"id": 10,
-"projectName": "Proyecto 2",
-"transmitter": "QA Tester",
-"issuerName": "Andrea Paredes",
-"title": "Fallas en la autenticación de usuarios",
-"Summary": "Los usuarios no pueden iniciar sesión debido a errores de autenticación.",
-"detailedDescription": "Al intentar iniciar sesión, algunos usuarios están recibiendo un mensaje de error, lo que les impide acceder a la plataforma.",
-"dateTime": "2 de octubre-09:30 AM",
-"assignedTo": "Equipo de Seguridad",
-"priority": "Alta",
-"suggestedActions": "Revisar el sistema de autenticación y aplicar un parche de seguridad."
-}
-]
+  "issues": [
+    {
+      "id": 1,
+      "title": "Error en autenticación de usuarios",
+      "SprintAssociate": 1,
+      "description": "Los usuarios no pueden autenticarse. El servidor devuelve un error 500.",
+      "status": "Abierto",
+      "priority": "Alta",
+      "assignedTo": "Juan Pérez",
+      "madeBy": "Estefano Jaque",
+      "createdIn": "2024-10-12",
+      "resolutionDate": null,
+      "history": [
+        {
+          "date": "2024-10-12",
+          "user": "Maria González",
+          "event": "Creación",
+          "description": "El issue fue creado por Maria González."
+        },
+        {
+          "date": "2024-10-13",
+          "user": "Juan Pérez",
+          "event": "Asignación",
+          "description": "El issue fue asignado a Juan Pérez."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Problema con el despliegue en producción",
+      "SprintAssociate": 2,
+      "description": "El despliegue en el ambiente de producción falla al cargar el frontend.",
+      "status": "En Progreso",
+      "priority": "Media",
+      "assignedTo": "Carla Ruiz",
+      "madeBy": "Estefano Jaque",
+      "createdIn": "2024-10-10",
+      "resolutionDate": null,
+      "history": [
+        {
+          "date": "2024-10-10",
+          "user": "Carlos López",
+          "event": "Creación",
+          "description": "El issue fue creado por Carlos López."
+        },
+        {
+          "date": "2024-10-11",
+          "user": "Carla Ruiz",
+          "event": "Asignación",
+          "description": "El issue fue asignado a Carla Ruiz."
+        },
+        {
+          "date": "2024-10-12",
+          "user": "Carla Ruiz",
+          "event": "Actualización",
+          "description": "Carla comenzó a trabajar en la corrección del despliegue."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Fallo en el sistema de notificaciones",
+      "SprintAssociate": 1,
+      "description": "Las notificaciones no se envían a los usuarios correctamente.",
+      "status": "Abierto",
+      "priority": "Baja",
+      "assignedTo": "Carlos López",
+      "madeBy": "Estefano Jaque",
+      "createdIn": "2024-10-11",
+      "resolutionDate": null,
+      "history": [
+        {
+          "date": "2024-10-11",
+          "user": "Carlos López",
+          "event": "Creación",
+          "description": "El issue fue creado por Carlos López."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Error al exportar reportes",
+      "SprintAssociate": 3,
+      "description": "Los reportes no se exportan en formato PDF.",
+      "status": "Resuelto",
+      "priority": "Alta",
+      "assignedTo": "Maria González",
+      "madeBy": "Juan Pérez",
+      "createdIn": "2024-09-29",
+      "resolutionDate": "2024-10-05",
+      "history": [
+        {
+          "date": "2024-09-29",
+          "user": "Juan Pérez",
+          "event": "Creación",
+          "description": "El issue fue creado por Juan Pérez."
+        },
+        {
+          "date": "2024-09-30",
+          "user": "Maria González",
+          "event": "Asignación",
+          "description": "El issue fue asignado a Maria González."
+        },
+        {
+          "date": "2024-10-05",
+          "user": "Maria González",
+          "event": "Resolución",
+          "description": "El issue fue resuelto."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Problema con la autenticación OAuth",
+      "SprintAssociate": 2,
+      "description": "El login con OAuth no funciona para ciertos proveedores.",
+      "status": "Abierto",
+      "priority": "Alta",
+      "assignedTo": "Juan Pérez",
+      "madeBy": "Carlos López",
+      "createdIn": "2024-10-01",
+      "resolutionDate": null,
+      "history": [
+        {
+          "date": "2024-10-01",
+          "user": "Carlos López",
+          "event": "Creación",
+          "description": "El issue fue creado por Carlos López."
+        },
+        {
+          "date": "2024-10-02",
+          "user": "Juan Pérez",
+          "event": "Asignación",
+          "description": "El issue fue asignado a Juan Pérez."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Fallo en la integración con API externa",
+      "SprintAssociate": 4,
+      "description": "La integración con la API de terceros devuelve errores intermitentes.",
+      "status": "En Progreso",
+      "priority": "Media",
+      "assignedTo": "Maria González",
+      "madeBy": "Carla Ruiz",
+      "createdIn": "2024-10-07",
+      "resolutionDate": null,
+      "history": [
+        {
+          "date": "2024-10-07",
+          "user": "Carla Ruiz",
+          "event": "Creación",
+          "description": "El issue fue creado por Carla Ruiz."
+        },
+        {
+          "date": "2024-10-08",
+          "user": "Maria González",
+          "event": "Asignación",
+          "description": "El issue fue asignado a Maria González."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Error de rendimiento en la página de inicio",
+      "SprintAssociate": 3,
+      "description": "La página de inicio tarda más de 5 segundos en cargar.",
+      "status": "Abierto",
+      "priority": "Alta",
+      "assignedTo": "Carlos López",
+      "madeBy": "Juan Pérez",
+      "createdIn": "2024-09-28",
+      "resolutionDate": null,
+      "history": [
+        {
+          "date": "2024-09-28",
+          "user": "Juan Pérez",
+          "event": "Creación",
+          "description": "El issue fue creado por Juan Pérez."
+        },
+        {
+          "date": "2024-09-29",
+          "user": "Carlos López",
+          "event": "Asignación",
+          "description": "El issue fue asignado a Carlos López."
+        }
+      ]
+    }
+  ]
 }
