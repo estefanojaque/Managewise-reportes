@@ -13,12 +13,14 @@
       "resolutionDate": null,
       "history": [
         {
+          "id": 1,
           "date": "2024-10-12",
           "user": "Maria González",
           "event": "Creación",
           "description": "El issue fue creado por Maria González."
         },
         {
+          "id": 2,
           "date": "2024-10-13",
           "user": "Juan Pérez",
           "event": "Asignación",
@@ -34,23 +36,26 @@
       "status": "En Progreso",
       "priority": "Media",
       "assignedTo": "Carla Ruiz",
-      "madeBy": "Estefano Jaque",
+      "madeBy": "Estefano Jaque ",
       "createdIn": "2024-10-10",
       "resolutionDate": null,
       "history": [
         {
+          "id": 1,
           "date": "2024-10-10",
           "user": "Carlos López",
           "event": "Creación",
           "description": "El issue fue creado por Carlos López."
         },
         {
+          "id": 2,
           "date": "2024-10-11",
           "user": "Carla Ruiz",
           "event": "Asignación",
           "description": "El issue fue asignado a Carla Ruiz."
         },
         {
+          "id": 3,
           "date": "2024-10-12",
           "user": "Carla Ruiz",
           "event": "Actualización",
@@ -71,6 +76,7 @@
       "resolutionDate": null,
       "history": [
         {
+          "id": 1,
           "date": "2024-10-11",
           "user": "Carlos López",
           "event": "Creación",
@@ -91,22 +97,53 @@
       "resolutionDate": "2024-10-05",
       "history": [
         {
+          "id": 1,
           "date": "2024-09-29",
           "user": "Juan Pérez",
           "event": "Creación",
           "description": "El issue fue creado por Juan Pérez."
         },
         {
+          "id": 2,
           "date": "2024-09-30",
           "user": "Maria González",
           "event": "Asignación",
           "description": "El issue fue asignado a Maria González."
         },
         {
+          "id": 3,
           "date": "2024-10-05",
           "user": "Maria González",
           "event": "Resolución",
           "description": "El issue fue resuelto."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Fallo en la carga de imágenes",
+      "SprintAssociate": 2,
+      "description": "Las imágenes no se cargan correctamente en el panel de administración.",
+      "status": "Abierto",
+      "priority": "Media",
+      "assignedTo": "Ana Torres",
+      "madeBy": "Estefano Jaque",
+      "createdIn": "2024-10-15",
+      "resolutionDate": null,
+      "history": [
+        {
+          "id": 1,
+          "date": "2024-10-15",
+          "user": "Estefano Jaque",
+          "event": "Creación",
+          "description": "El issue fue creado por Estefano Jaque."
+        },
+        {
+          "id": 2,
+          "date": "2024-10-16",
+          "user": "Ana Torres",
+          "event": "Asignación",
+          "description": "El issue fue asignado a Ana Torres."
         }
       ]
     }
